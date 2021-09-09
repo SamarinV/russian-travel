@@ -1,0 +1,207 @@
+  
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/Inter-3.19/Inter\ Web/inter.css);
+@import url(../blocks/root/root.css);
+
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-links/header__lang-links.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__list-item/intro__list-item.css);
+
+@import url(../blocks/photo/photo.css);
+@import url(../blocks/photo/__item/photo__item.css);
+
+@import url(../blocks/places/places.css);
+@import url(../blocks/places/__title/places__title.css);
+@import url(../blocks/places/__website/places__website.css);
+@import url(../blocks/places/__url-heading/places__url-heading.css);
+@import url(../blocks/places/__link/places__link.css);
+@import url(../blocks/places/__image/places__image.css);
+@import url(../blocks/places/__two-paragraph/places__two-paragraph.css);
+@import url(../blocks/places/__paragraph/places__paragraph.css);
+
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__link/cover__link.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+
+@media only screen and (max-width: 1024px) { 
+  .root {
+    max-width: 1024px;
+  }
+  .lead {
+    margin: 48px 48px 0 48px;
+    max-width: calc(100vw - 96px);
+  }
+  .lead__image {
+    margin-top: 56px;
+ }
+ .intro {
+    margin: 92px 286px 0 48px;
+  }
+  .photo {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 14px;;
+  }
+  .places {
+    max-width: calc(100vw - 96px);
+    grid-template-columns: minmax(min-content, 440px) minmax(min-content , 456px);
+    grid-template-rows: minmax(min-content, 152px) minmax(min-content, 440px);
+    margin: 0 48px 80px 48px;
+    column-gap: 32px;
+    row-gap: 48px;
+  }
+}
+
+@media only screen and (max-width: 768px) { 
+  .root {
+    max-width: 768px;
+  }
+  .lead {
+    margin: 48px 0 0 0;
+    max-width: 100vw;
+  }
+  .lead__image {
+    width: 768px;
+ }
+ .lead__caption {
+   margin-left: 24px;
+ }
+ .intro {
+    margin: 88px 24px 0 24px;
+  }
+  .photo {
+    max-width: calc(100vw - 48px);
+    margin: 88px 24px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 16px;;
+  }
+  .places {
+    max-width: calc(100vw - 48px);
+    grid-template-columns: minmax(min-content, 340px) minmax(min-content, 352px);
+    grid-template-rows: minmax(46px, max-content) minmax(min-content, 340px);
+    margin: 0 24px 73px 24px;
+    column-gap: 28px;
+    row-gap: 48px;
+  }
+  .places__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 46px;
+  }
+  .places__url-heading {
+    line-height: 12px;
+  }
+  .places__paragraph {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  .places__paragraph:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 320px) { 
+  .root {
+    max-width: 320px;
+  }
+  .header {
+    width: calc(100vw - 32px);
+    margin: 16px 16px 0 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .header__logo {
+   width: 142px;
+    height: 42px;
+  }
+  .header__lang-link{
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .lead {
+    margin: 48px 0 0 0;
+    max-width: 100vw;
+  }
+  .lead__title {
+    max-width: 288px;
+    margin: 0 auto 16px auto;
+    font-size: 40px;
+    line-height: 44px;
+  }
+.lead__subtitle {
+  max-width: 288px;
+  font-size: 16px;
+  line-height: 20px;
+}
+  .lead__image {
+    width: 320px;
+ }
+  .lead__caption {
+  margin-left: 16px;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 1.5px;
+}
+  .intro {
+    margin: 64px 16px 0 16px;
+  }
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+}
+  .photo {
+    max-width: calc(100vw - 32px);
+    display: block;
+    margin: 64px 16px;
+}
+  .photo__item {
+    width: 100%;
+    margin-top: 16px;
+    object-fit: cover;
+}
+  .places {
+    width: 100vw;
+    display: block;
+    margin: 0 0 50px 0;
+  }
+  .places__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 46px;
+  }
+  .places__url-heading {
+    line-height: 12px;
+  }
+  .places__paragraph {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  .places__paragraph:last-child {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,8 @@
+.places {
+  max-width: calc(100vw - 296px);
+  display: grid;
+  grid-template-columns: minmax(min-content, 460px) minmax(min-content , 484px);
+  grid-template-rows: minmax(min-content, 152px) minmax(min-content, 460px );
+  margin: 0 148px 80px 148px;
+  gap: 40px 48px;
+}

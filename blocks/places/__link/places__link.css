@@ -1,0 +1,9 @@
+.places__link {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 22px;
+  text-decoration: underline;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
