@@ -1,6 +1,7 @@
 .cover__subtitle {
-  margin: 32px 412px auto 412px;
+  margin: 32px auto auto auto;
   padding: 0;
+  max-width: 360px;
   font-size: 18px;
   font-weight: normal;
   font-style: normal;

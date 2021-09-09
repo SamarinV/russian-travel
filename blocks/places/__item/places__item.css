@@ -1,0 +1,11 @@
+.places__item {
+  display: grid;
+  grid-template-columns: 460px 1fr;
+  grid-template-rows: minmax(min-content, max-content) minmax(460px, max-content );
+  column-gap: 40px;
+  row-gap: 48px;
+  margin-bottom: 80px;
+}
+.places__item:last-child {
+  margin-bottom: 0;
+}
