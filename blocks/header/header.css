@@ -5,3 +5,21 @@
     justify-content: space-between;
     align-items: flex-end;
 }
+
+@media only screen and (max-width: 768px) { 
+    .header {
+      max-width: calc(100vw - 48px);
+      margin: 28px 24px 0 24px;
+    }
+}
+
+@media only screen and (max-width: 320px) { 
+    .header {
+      max-width: calc(100vw - 32px);
+      margin: 16px 16px 0 16px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+}

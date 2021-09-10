@@ -10,3 +10,23 @@
 .places__paragraph:last-child {
   margin-bottom: 0;
 }
+
+@media only screen and (max-width: 768px) {
+  .places__paragraph {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  .places__paragraph:last-child {
+    margin-bottom: 0;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .places__paragraph {
+    width: 288px;
+    font-size: 16px;
+    margin: 0 16px 25px 16px;
+  }
+  .places__paragraph:last-child {
+    margin-bottom: 0;
+  }
+}
