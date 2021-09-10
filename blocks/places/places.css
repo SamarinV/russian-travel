@@ -1,19 +1,21 @@
 .places {
   max-width: calc(100vw - 296px);
-  margin: 0 148px 92px 148px;
+  margin: 0 auto 92px auto;
 }
 
 @media only screen and (max-width: 1024px) { 
   .places {
     max-width: calc(100vw - 96px);
-    margin: 0 48px 80px 48px;
+    margin: 0 auto 80px auto;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .places {
-    max-width: calc(100vw - 48px);
-    margin: 0 24px 90px 24px;
+    max-width: calc(100vw - calc(100vw/16)); 
+    /* 48px было*/
+
+    margin: 0 auto 90px auto;
   }
 }
 

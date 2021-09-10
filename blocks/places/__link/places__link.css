@@ -6,4 +6,8 @@
   color: #fff;
   margin: 0;
   padding: 0;
+  transition: .3s linear;
+}
+.places__link:hover {
+  opacity: 0.8;
 }

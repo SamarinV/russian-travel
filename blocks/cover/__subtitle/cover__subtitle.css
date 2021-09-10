@@ -5,17 +5,22 @@
   font-size: 18px;
   font-weight: normal;
   font-style: normal;
-  line-height: 22px;
-  min-width: 360px;
+  line-height: 122%;
   color: white;
   text-align: center;
   z-index: 1;
   position: relative;
 }
 
+@media only screen and (max-width: 768px) {
+  .cover__subtitle {
+    font-size: 2vw;
+  }
+}
+
 @media only screen and (max-width: 320px) {
   .cover__subtitle {
-    width: 288px;
+    max-width: 288px;
     font-size: 14px;
     line-height: 16px;
     margin: 16px 16px auto 16px;

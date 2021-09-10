@@ -1,7 +1,7 @@
 .cover__link {
   background-image: url('../../../images/cover-trains.jpg');
-  max-width: 1184px;
-  height: 740px;
+  width: calc(100vw - 96px);
+  height: calc((100vw - 96px)/1.6);
   background-size: cover;
   text-decoration: none;
   display: flex;
@@ -25,19 +25,8 @@
 
 @media only screen and (max-width: 1024px) {
   .cover__link {
-    height: 640px;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .cover__link {
-    height: 480px;
-  }
-}
-
-@media only screen and (max-width: 320px) {
-  .cover__link {
-    height: 200px;
+    width: 100vw;
+  height: calc(100vw/1.6);
   }
 }
 
