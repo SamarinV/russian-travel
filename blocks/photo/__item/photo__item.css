@@ -5,6 +5,9 @@
 
 @media only screen and (max-width: 424.98px) {
   .photo__item {
-    margin-top: 12px;
+    margin: 0 0 12px 0;
+  }
+  .photo__item:last-child {
+    margin-bottom: 0;
   }
 }

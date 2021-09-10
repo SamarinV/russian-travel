@@ -10,17 +10,25 @@
   }
 }
 
+@media only screen and (max-width: 1279.98px) {
+  .places {
+    max-width: calc(100vw - calc(100vw/16)); 
+
+    margin-bottom: 92px;
+  }
+}
+
 @media only screen and (max-width: 1023.98px) {
   .places {
     max-width: calc(100vw - calc(100vw/16)); 
 
-    margin: 0 auto 90px auto;
+    margin-bottom: 90px;
   }
 }
 
 @media only screen and (max-width: 424.98px) {
   .places {
     width: 100vw;
-    margin: 0 0 50px 0;
+    margin: 0 0 66px 0;
   }
 }
