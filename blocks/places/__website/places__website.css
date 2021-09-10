@@ -2,7 +2,7 @@
   align-self: flex-end;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 424.98px) {
   .places__website {
     margin: 32px 16px;
     padding: 0;

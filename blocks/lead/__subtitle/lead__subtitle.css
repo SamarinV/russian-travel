@@ -1,7 +1,7 @@
 .lead__subtitle {
     margin: 0 auto;
     padding: 0;
-    max-width: 640px;
+    max-width: 50%;
     font-size: 30px;
     font-weight: normal;
     line-height: 120%;
@@ -9,13 +9,21 @@
     text-align: center;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1023.98px) {
   .lead__subtitle {
-    font-size: 3.90vw;
+    font-size: 30px;
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 767.98px) {
+  .lead__subtitle {
+  max-width: 320px;
+  font-size: 18px;
+  line-height: 120%;
+}
+}
+
+@media only screen and (max-width: 424.98px) {
     .lead__subtitle {
     max-width: 288px;
     font-size: 16px;

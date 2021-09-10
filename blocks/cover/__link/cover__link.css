@@ -23,10 +23,10 @@
   opacity: 0.8;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1279.98px) {
   .cover__link {
     width: 100vw;
-  height: calc(100vw/1.6);
+    height: calc(100vw/1.6);
   }
 }
 

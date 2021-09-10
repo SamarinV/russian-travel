@@ -3,7 +3,7 @@
   object-fit: cover;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 424.98px) {
   .places__image {
     width: 100vw;
     margin-bottom: 32px;
