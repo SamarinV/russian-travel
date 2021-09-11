@@ -4,10 +4,10 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 106%;
-  font-style: normal;
+  font-family: Inter;
 }
 
-@media only screen and (max-width: 1023.98px) {
+@media only screen and (max-width: 1023px) {
   .places__title {
     font-style: normal;
     font-weight: 900;
@@ -16,16 +16,17 @@
   }
 }
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 767px) {
   .places__title {
     font-size: 34px;
     line-height: 110%;
   }
 }
 
-@media only screen and (max-width: 424.98px) {
+@media only screen and (max-width: 424px) {
   .places__title {
     margin-left: 16px;
+    min-width: 288px;
     font-size: 32px;
     line-height: 109%;
   }

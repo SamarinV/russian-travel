@@ -2,7 +2,7 @@
     margin-right: 18px;
     font-size: 24px;
     line-height: 28px;
-    font-style: normal;
+    font-family: Inter;
     font-weight: normal;
     text-align: right;
     color: #ffffff;
@@ -13,15 +13,14 @@
   }
 .header__lang-link:last-child {
     margin-right: 0;
-    text-decoration: none;
 }
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 767px) {
     .header__lang-link{
       font-size: 20px;
       line-height: 20px;
     }
 }
-@media only screen and (max-width: 424.98px) {
+@media only screen and (max-width: 424px) {
     .header__lang-link{
       font-size: 18px;
       line-height: 20px;

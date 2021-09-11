@@ -1,10 +1,11 @@
 .photo__item {
-  max-width: 100%;
-  object-fit: cover;
+  width: 100%;
+  object-fit: contain;
 }
 
-@media only screen and (max-width: 424.98px) {
+@media only screen and (max-width: 424px) {
   .photo__item {
+    display: block;
     margin: 0 0 12px 0;
   }
   .photo__item:last-child {
