@@ -18,7 +18,13 @@
 
 @media only screen and (max-width: 767px) {
     .intro {
-        width: 100%;
+        max-width: calc(100% - 32px);
+        margin: 64px 16px 0 16px;
+    }
+}
+@media only screen and (max-width: 424px) {
+    .intro {
+        max-width: 288px;
         margin: 64px 16px 0 16px;
     }
 }
