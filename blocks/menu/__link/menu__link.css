@@ -1,28 +1,25 @@
-.footer__link {
-  margin-right: 18px;
+.menu__link {
+  margin: 0;
+  padding: 0;
+  padding-right: 18px;
   text-decoration: none;
   color: #ffffff;
-  font-family: Inter;
+  font-family: 'Inter';
   font-weight: normal;
   font-size: 16px;
   line-height: 18px;
   transition: .3s linear;
 }
-.footer__link:hover {
+.menu__link:hover {
   opacity: 0.8;
 }
-.footer__link:last-child {
+.menu__link:last-child {
 margin-right: 0;
 }
 
 @media only screen and (max-width: 767px) {
-  .footer__link {
-    display: block;
-    margin-bottom: 32px;
+  .menu__link{    
     font-size: 24px;
     line-height: 24px;
-  }
-  .footer__link:last-child {
-    margin-bottom: 48px;
   }
 }

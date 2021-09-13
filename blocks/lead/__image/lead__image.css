@@ -10,7 +10,7 @@
    }
 }
 
-@media only screen and (max-width: 424px) {
+@media only screen and (max-width: 767px) {
     .lead__image {
         margin-top: 40px;
         min-width: 320px;

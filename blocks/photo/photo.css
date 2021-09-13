@@ -20,13 +20,6 @@
 }
 @media only screen and (max-width: 767px) {
   .photo {
-    margin: 88px 20px;
-    gap: 10px;
-  }
-}
-
-@media only screen and (max-width: 424px) {
-  .photo {
     display: block;
     margin: 64px 16px;
   }
