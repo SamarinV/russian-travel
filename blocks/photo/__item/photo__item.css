@@ -2,13 +2,3 @@
   width: 100%;
   object-fit: contain;
 }
-
-@media only screen and (max-width: 767px) {
-  .photo__item {
-    display: block;
-    margin: 0 0 12px 0;
-  }
-  .photo__item:last-child {
-    margin-bottom: 0;
-  }
-}
